@@ -137,7 +137,7 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    "https://frontend-school-rzhe.vercel.app/",
+    "https://frontend-school-rzhe.vercel.app",
 ]
 AUTHENTICATION_BACKENDS = ['django.contrib.auth.backends.ModelBackend']
 AUTH_USER_MODEL = 'my_app.Users'
